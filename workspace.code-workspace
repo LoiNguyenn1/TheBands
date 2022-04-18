@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\Javascript\\Java"
+		}
+	],
+	"settings": {
+		"java.project.sourcePaths": [
+			"src"
+		],
+		"java.project.outputPath": "bin",
+		"java.project.referencedLibraries": [
+			"lib/**/*.jar"
+		],
+		"liveServer.settings.multiRootWorkspaceName": "HTML VS CSS 2022",
+		"liveServer.settings.port": 5501
+	}
+}

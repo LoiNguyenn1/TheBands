@@ -1,0 +1,51 @@
+
+/*pc*/
+@media(min-width:/*1024px = */64em){
+
+
+}
+/*Tablet*/
+@media (min-width: /*740px*/46.25em) and (max-width:/*1023px*/63.9375em){
+    #footer .list-icon a {
+        margin: 0 8px ;
+    }
+}
+
+/*Mobile hiển thị theo mobile sẽ thêm và bỏ thuộc tính*/
+@media (max-width:/*739px=*/48.1875em){
+    .s-full-width{
+        width: 100% !important;
+    }
+    #nav >li{
+        display: block;
+    }
+    #nav > li:first-child{/* tạo thẻ giả để css thẻ li đầu tiên*/
+        display: inline-block;
+    }
+    #header .menu-icon {
+        display: block;
+    }
+    .search-btn{
+        display: none;
+    }
+    #nav{
+        display: block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+    }
+    #header{
+        overflow: hidden;
+    }
+   
+    
+    .s-col-full{
+        width: 100%;
+    }
+
+}
